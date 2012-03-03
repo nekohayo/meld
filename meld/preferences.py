@@ -225,10 +225,10 @@ class MeldPreferences(prefs.Preferences):
         "ignore_symlinks": prefs.Value(prefs.BOOL,0),
         "vc_console_visible": prefs.Value(prefs.BOOL, 0),
         "color_delete_bg" : prefs.Value(prefs.STRING, "#c5f19a"),  # Light green
-        "color_replace_bg" : prefs.Value(prefs.STRING, "#ddeeff"),  # Light blue
+        "color_replace_bg" : prefs.Value(prefs.STRING, "#ffe0b0"),  # Light brown
         "color_conflict_bg" : prefs.Value(prefs.STRING, "Pink"),
-        "color_inline_bg" : prefs.Value(prefs.STRING, "LightSteelBlue2"), # Darker blue
-        "color_inline_fg" : prefs.Value(prefs.STRING, "#a40000"),  # Tango's dark variant of Scarlet Red
+        "color_inline_bg" : prefs.Value(prefs.STRING, "#c17d11"), # Tango Chocolate
+        "color_inline_fg" : prefs.Value(prefs.STRING, "white"),
         "filters" : prefs.Value(prefs.STRING,
             #TRANSLATORS: translate this string ONLY to the first "\t", leave it and the following parts intact
             _("Backups\t1\t#*# .#* ~* *~ *.{orig,bak,swp}\n") + \
